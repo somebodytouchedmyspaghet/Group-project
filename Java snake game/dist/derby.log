@@ -1,0 +1,10 @@
+----------------------------------------------------------------
+Fri Apr 06 17:25:00 EDT 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.9.1.0 - (1344872): instance a816c00e-0162-9cd9-292d-00000ee847e0 
+on database directory C:\Users\bart2\Desktop\Group Project\Java snake game\dist\SnakeDB\Snake.DB  with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@69222c14 
+Loaded from file:/C:/Users/bart2/Desktop/Group%20Project/Java%20snake%20game/dist/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=9.0.4+11
+user.dir=C:\Users\bart2\Desktop\Group Project\Java snake game\dist
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

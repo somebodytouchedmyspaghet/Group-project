@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane id="AnchorPane" fx:id="Anchor" prefHeight="600.0" prefWidth="800.0" styleClass="background" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.HighScoresController">
+    <stylesheets>
+        <URL value="@Style.css" />
+    </stylesheets>
+   <children>
+      <Label layoutX="254.0" layoutY="22.0" styleClass="header" stylesheets="@Style.css" text="high" />
+      <Label layoutX="181.0" layoutY="104.0" styleClass="header" stylesheets="@Style.css" text="scores" />
+      <VBox fx:id="vBox" layoutX="120.0" layoutY="198.0" prefHeight="361.0" prefWidth="561.0" spacing="30.0">
+         <children>
+            <HBox alignment="TOP_CENTER" prefHeight="15.0" prefWidth="519.0" spacing="150.0">
+               <children>
+                  <Label text="name" />
+                  <Label text="score" />
+                  <Label prefHeight="15.0" prefWidth="119.0" text="difficulty" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <Button layoutX="665.0" layoutY="513.0" mnemonicParsing="false" onAction="#backToMenu" styleClass="buttons" stylesheets="@Style.css" text="back" />
+   </children>
+</AnchorPane>
